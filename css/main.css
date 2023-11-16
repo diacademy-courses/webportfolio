@@ -1,0 +1,189 @@
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: lightblue;
+    font-size: 16px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+/* Header */
+
+.navbar-brand {
+    color: #485d84;
+    font-weight: 800;
+}
+.navbar-brand span {
+    color: darkorange;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-around;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: black;
+}
+.nav-link:hover {
+    color: darkorange;
+}
+
+
+/* About */
+
+#about {
+    max-height: 100vh;
+    padding: 0!important;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about h1 {
+    color:#485d84;
+    font-size: 4rem;
+}
+
+#about a {
+    display: block;
+    background-color: darkorange;
+    max-width: 200px;
+    padding: 10px 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.about-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Services */
+#services {
+    background-color: #f7f7f7;
+    background: url('../img/desktop.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h3 {
+    padding: 15px 0;
+    text-align: center;
+    color: #485d84;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#services h4 {
+    color: #485d84;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#services p {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.services-box {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 15px;
+    min-height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.2);
+}
+.icon-box {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: darkorange;
+    font-size: 2rem;
+    background-color: rgb(233, 241, 238);
+}
+
+#services a {
+    color: darkorange;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* Skills */
+
+#skills .progress {
+    /* background-color: lightblue; */
+    margin: 15px 0;
+    height: 24px;
+    font-weight: 600;
+}
+
+#skills .skills-text {
+    padding: 10px;
+}
+
+/* Works */
+
+#works {
+    background-color: #f7f7f7;
+    background: url('../img/desktop2.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#works img {
+    margin: 10px;
+}
+
+#works h3 {
+    color: darkorange;
+}
+/* Contacts */
+
+.contact-block {
+    /* background-color: #f8f9fa; */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: darkorange;
+}
+
+#contacts .btn {
+    display: block;
+    background-color: darkorange;
+    max-width: 200px;
+    margin: 10px 0;
+    padding: 8px 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Footer */
+
+footer {
+    min-height: 100px;
+    background-color: black;
+    color:#f7f7f7;
+    display: flex;
+    align-items: center;
+}
